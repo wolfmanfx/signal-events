@@ -1,0 +1,28 @@
+<!-- Topbar -->
+<div class="navbar bg-base-200 shadow-md mb-6">
+  <div class="flex-1">
+    <span class="text-xl font-bold tracking-tight">Signal Events</span>
+  </div>
+  <div class="flex-none">
+    <label for="settings-modal" class="btn btn-ghost btn-circle">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-1.14 1.952-1.14 2.252 0a1.724 1.724 0 002.573 1.01c1.01-.588 2.12.522 1.532 1.532a1.724 1.724 0 001.01 2.573c1.14.3 1.14 1.952 0 2.252a1.724 1.724 0 00-1.01 2.573c.588 1.01-.522 2.12-1.532 1.532a1.724 1.724 0 00-2.573 1.01c-.3 1.14-1.952 1.14-2.252 0a1.724 1.724 0 00-2.573-1.01c-1.01.588-2.12-.522-1.532-1.532a1.724 1.724 0 00-1.01-2.573c-1.14-.3-1.14-1.952 0-2.252a1.724 1.724 0 001.01-2.573c-.588-1.01.522-2.12 1.532-1.532a1.724 1.724 0 002.573-1.01z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+    </label>
+  </div>
+</div>
+
+<!-- Main Content Area -->
+<div class="container mx-auto px-4">
+  <div class="prose max-w-none">
+    <h2>Welcome to Signal Events</h2>
+    <p>This is a demo application UI using DaisyUI and Tailwind CSS. Use the settings cog in the top right to open the preferences modal and customize your experience.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam nunc, eget aliquam massa nisl quis neque.</p>
+  </div>
+</div>
+
+<!-- Settings Modal -->
+<input type="checkbox" id="settings-modal" class="modal-toggle" #settingsModal title="Open settings modal" />
+<div class="modal">
+  <div class="w-11/12 max-w-md">
+    <app-settings></app-settings>
+  </div>
+</div>

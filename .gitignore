@@ -1,0 +1,65 @@
+# Angular build output
+/dist
+/tmp
+/out-tsc
+# Bazel build output
+/bazel-out
+
+# Node dependencies
+/node_modules
+
+# Angular cache
+.angular/cache
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+xcuserdata/
+*.sublime-workspace
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+/reports
+/src/translations/template.*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Cordova
+/www
+/plugins
+/platforms
+
+# Electron
+/dist-electron
+/dist-packages
+/electron.main.js
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Existing Angular cache
+.angular/cache/19.2.12/signal-events/vite/deps/_metadata.json
