@@ -1,5 +1,8 @@
 import { inject } from "@angular/core";
-import { signalStoreFeature, type } from "@ngrx/signals";
+import {
+  signalStoreFeature,
+  type,
+} from "@ngrx/signals";
 import { Events, withEffects } from "@ngrx/signals/events";
 import { initialState, SettingsState } from "../api/settings-state";
 import { exhaustMap } from "rxjs";
